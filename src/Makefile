@@ -6,7 +6,7 @@
 # Date: 10/7/2010
 
 OCVFLAGS = `pkg-config --cflags opencv`
-OCVLIBS = `pkg-config --libs opencv` -lstdc++
+OCVLIBS = `pkg-config --libs opencv` -lstdc++ -std=c++11
 
 CPP = g++
 
